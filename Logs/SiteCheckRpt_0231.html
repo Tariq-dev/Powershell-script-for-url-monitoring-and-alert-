@@ -1,0 +1,122 @@
+
+		<html>
+		<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+		<title>Site Check Report</title>
+		<STYLE TYPE='text/css'>
+		<!--
+        table {
+            border-collapse: collapse;
+            border: thin solid #999999;
+        	}
+		td {
+			font-family: 'Tahoma','Arial';
+			font-size: 11px;
+            border: thin solid #999999;
+		    }
+		body {
+            font-family: 'Tahoma','Arial';
+			margin-left: 5px;
+			margin-top: 5px;
+			margin-right: 5px;
+			margin-bottom: 10px;
+		    }
+        .noBorder {
+            font-family: 'Tahoma','Arial';
+            border: none !important;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            }
+        #blink_text {
+			animation: blink 1s infinite;	
+			}
+		@keyframes blink {  
+			0% { opacity: 1.0; }
+			50% { opacity: 0.25; }
+			100% { opacity: 1.0; }
+			}
+		-->
+		</style>
+		</head>
+		<body>
+
+
+    <table class='noBorder' width='100%' bgcolor='#505050' cellpadding='5'><tbody><tr>
+    <td class='noBorder'><font color='#66FF66'>Accessible: 2</td>
+    <td class='noBorder'><font color='#4DB8FF'>Unauthorized: 0</td>
+    <td class='noBorder'><font color='#FFB84D'>InvalidSSL: 1</td>
+    <td class='noBorder'><font color='#FF6666'>Inaccessible: 0</td>
+    </tr></table>
+ 
+
+<table width='100%'>
+    <tr bgcolor='#EEEEEE'>
+	<td colspan='7' height='25' align='center'>
+	<font face='Arial' color='#557799' size='4'><strong>Website Availibity Report</strong></font>
+	</td>
+	</tr>
+	</table>
+ <table width='100%'><tbody>
+	<tr bgcolor=#EEEEEE>
+	<td align='center'><strong>No.</strong></td>
+	<td align='center'><strong>Site</strong></td>
+    <td align='center'><strong>Check Initiated</strong></td>
+	<td align='center'><strong>Response Time (Sec)</strong></td>
+	<td align='center'><strong>Status Code</strong></td>
+	<td align='center'><strong>Description</strong></td>
+	</tr>
+
+
+		<tr>
+		<td><strong>1</strong></td>
+		<td>http://gooaaagle.com</td>
+        <td>02/16/2020 02:31:00</td>
+		<td>0</td>
+		<td>402</td>
+		<td bgcolor='#FFB84D'>NameResolutionFailure</td>
+		</tr>
+
+
+		<tr>
+		<td><strong>2</strong></td>
+		<td>http://www.google.com</td>
+        <td>02/16/2020 02:31:00</td>
+		<td>0.5</td>
+		<td>200</td>
+		<td bgcolor='#66FF66'>OK</td>
+		</tr>
+
+
+		<tr>
+		<td><strong>3</strong></td>
+		<td>http://google.com</td>
+        <td>02/16/2020 02:31:00</td>
+		<td>0.7</td>
+		<td>200</td>
+		<td bgcolor='#66FF66'>OK</td>
+		</tr>
+
+
+ </table><br><table width='50%' bgcolor='white'>
+	<tr>
+    <td bgcolor='#66FF66'>200</td>
+    <td>The site is accessible</td>
+    </tr><tr>
+	<td bgcolor='#4DB8FF'>401</td>
+    <td>Access is denied because credential for admin account needed</td>
+    </tr><tr>
+    <td bgcolor='#FFB84D'>402</td>
+    <td>Placeholder code for SSL errors, Timeouts and Connect failures</td>
+    </tr><tr>
+    <td bgcolor='#FFB84D'>403</td>
+    <td>Internet usage to this site is monitored and logged</td>
+    </tr><tr>
+    <td bgcolor='#FF6666'>404</td>
+    <td>The requested resource could not be found</td>
+    </tr><tr>
+    <td bgcolor='#FF6666'>503</td>
+    <td>The site is either unavailable or invalid url</td>
+	</tr></table>
+
+</body></html>
