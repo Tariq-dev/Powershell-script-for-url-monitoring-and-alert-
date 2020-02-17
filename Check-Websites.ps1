@@ -1,6 +1,6 @@
 ﻿#Script generates email report for Website checks in html format
 #powershell v3 or higher is required!
-#Created by Jatin Patel
+#Created by Tariq Shafiq
 
 $ErrorActionPreference = "SilentlyContinue";
 $scriptpath = $MyInvocation.MyCommand.Definition 
