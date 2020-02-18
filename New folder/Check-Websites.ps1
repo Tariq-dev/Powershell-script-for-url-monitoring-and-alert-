@@ -43,7 +43,7 @@ $subjectTime = Get-Date -Format dddd-hhmmtt
 
 #EMAIL VARIABLES
 $smtpServer = "smtp.1and1.com"
-$credentials = new-object Management.Automation.PSCredential “tariq.shafiq@tenpearls.com”, (“10Pearls123%” | ConvertTo-SecureString -AsPlainText -Force)
+$credentials = new-object Management.Automation.PSCredential “tariq.shafiq@tenpearls.com”, (“password” | ConvertTo-SecureString -AsPlainText -Force)
 $ReportSender = "Operations Alerts <tariq.shafiq@tenpearls.com>"
 If ($alert) {
     $to = "tariq.shafiq@tenpearls.com","tariq.shafiq@tenpearls.com"
